@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# PaddleOCR models and cache
+.paddleocr/
+*.pdparams
+*.pdopt
+*.pdmodel
+PaddleOCR/
+
+# Temporary files
+*.tmp
+*.log
+temp_images/
+
+# PDF files (optional - remove if you want to include the PDF)
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows
+[Tt]humbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
